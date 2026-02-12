@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!---
+This page will be shown when user clcik extension and becasue in the 
+manifest.json , default_popup has the value popup.hmtl
+-->
+
+<html>
+    <head>
+        <title>Getting started extension popup</title>
+        <style>
+            body{
+                margin: 1-px;
+                white-space: nowrap;
+            }
+
+            #container {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .start {
+                border: 1-x solid #000;
+                border-radius: 15px;
+                padding: 5px 15px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <button class="start">
+                Render App
+            </button>
+        </div>
+         <script src="popup.js"></script>
+    </body>
+</html>
