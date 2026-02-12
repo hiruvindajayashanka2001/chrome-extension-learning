@@ -1,4 +1,4 @@
-## Learning Project
+### Learning Project
 
 This project was developed as part of my learning journey by following a tutorial.
 
@@ -8,7 +8,8 @@ Source: [FreeCodeCamp Article](https://www.freecodecamp.org/news/building-chrome
 
 I implemented the project myself while learning the concepts and technologies used.
 
-##Setup and Build Intruction
+## Setup and Build Intruction
+
 1. Clone the repository
 ```bash
    git clone https://github.com/hiruvindajayashanka2001/chrome-extension-learning.git
