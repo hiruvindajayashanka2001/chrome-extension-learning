@@ -11,7 +11,7 @@ I implemented the project myself while learning the concepts and technologies us
 ##Setup and Build Intruction
 1. Clone the repository
 ```bash
-   git clone https://github.com/Y3S2-SE/money-mentor.git
+   git clone https://github.com/hiruvindajayashanka2001/chrome-extension-learning.git
    cd money-mentor/backend
 ```
 2. Install Dipendencies
