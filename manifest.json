@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Website Converter",
+    "description": "Convert websites to json, xml, csv",
+    "version": "1.0",
+
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "src/popup.html"
+    },
+
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["src/build/main.js"]
+        }
+    ]
+}
